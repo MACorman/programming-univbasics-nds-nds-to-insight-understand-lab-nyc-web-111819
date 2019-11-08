@@ -1,3 +1,4 @@
+require 'pry'
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 # Call the method directors_database to retrieve the NDS
 
@@ -19,6 +20,6 @@ pp directors_database
 
 row_index = 0 
 while row_index < directors_database.length do
-  
+  binding.pry 
  
 end
