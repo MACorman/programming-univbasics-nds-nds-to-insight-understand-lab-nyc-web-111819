@@ -16,7 +16,7 @@ pp directors_database
   
 row_index = 0 
 column_index = 0 
-while column_index < directors_database[row_index].count do
+while column_index < directors_database[row_index].length do
   puts directors_database[row_index][column_index]
   column_index += 1 
 end
