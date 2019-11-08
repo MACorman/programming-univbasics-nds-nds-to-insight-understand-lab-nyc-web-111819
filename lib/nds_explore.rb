@@ -19,9 +19,9 @@ pp directors_database
 #print_first_directors_movie_titles[:title]
 
 row_index = 0 
-while row_index < directors_database.length do
-  binding.pry 
- row_index += 1 
- end
+#while row_index < directors_database.length do
+ # binding.pry 
+ #row_index += 1 
+ #end
  
 end
