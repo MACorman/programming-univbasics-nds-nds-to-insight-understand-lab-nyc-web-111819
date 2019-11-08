@@ -22,4 +22,6 @@ row_index = 0
 while row_index < directors_database.length do
   binding.pry 
  
+ end
+ 
 end
