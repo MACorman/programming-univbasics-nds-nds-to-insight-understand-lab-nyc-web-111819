@@ -11,17 +11,17 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-binding.pry
+
 require 'pp'
 pp directors_database
   
-#print_first_directors_movie_titles = directors_database[0][:movies]
+spielberg_movies = directors_database[0][:movies]
 #print_first_directors_movie_titles[:title]
 
-#row_index = 0 
-#while row_index < directors_database.length do
- # binding.pry 
- #row_index += 1 
- #end
+row_index = 0 
+while row_index < spielberg_movies.length do
+  puts spielberg_movies[0][:title]  
+ row_index += 1 
+ end
  
 end
