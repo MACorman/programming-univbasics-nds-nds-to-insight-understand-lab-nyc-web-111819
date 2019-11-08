@@ -12,7 +12,7 @@ end
 
 def print_first_directors_movie_titles
 
-require 'pp'
+#require 'pp'
 #pp directors_database
   
 spielberg_movies = directors_database[0][:movies]
