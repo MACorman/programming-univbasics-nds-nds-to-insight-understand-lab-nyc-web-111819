@@ -14,6 +14,6 @@ def print_first_directors_movie_titles
 require 'pp'
 pp directors_database
   
-directors_database[0][:movies]
+directors_database[0][:movies][:title]
  
 end
