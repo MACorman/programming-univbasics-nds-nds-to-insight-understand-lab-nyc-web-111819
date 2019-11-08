@@ -11,6 +11,8 @@ end
 
 def print_first_directors_movie_titles
 
+require 'pp'
+pp directors_database
   
 row_index = 0 
 column_index = 0 
