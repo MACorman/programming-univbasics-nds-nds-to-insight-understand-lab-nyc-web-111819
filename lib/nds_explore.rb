@@ -20,7 +20,6 @@ spielberg_movies = directors_database[0][:movies]
 
 row_index = 0 
 while row_index < spielberg_movies.length do
-  binding.pry
   puts spielberg_movies[row_index][:title]  
  row_index += 1 
  end
