@@ -11,7 +11,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-require 'pry'
+binding.pry
 require 'pp'
 pp directors_database
   
